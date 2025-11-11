@@ -4,3 +4,5 @@ species <- as.factor(c(rep("Picea abies", 30), rep("Fagus sylvatica", 30), rep("
 df <- data.frame(height, species)
 
 boxplot(height~species, data = df)
+
+# fish I love
