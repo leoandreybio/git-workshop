@@ -5,8 +5,8 @@ df <- data.frame(height, species)
 summary(df)
 
 boxplot(height~species, data = df)
-<<<<<<< HEAD
+
 print(df$height[1])
-=======
+
 hist(df$height)
->>>>>>> 7ca6e5b93de83fae20d09a7bd1aeea06f2e1dbad
+
